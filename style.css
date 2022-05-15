@@ -30,6 +30,7 @@ body {
 .logo {
   font-size: 30px;
   color: #4dbf00;
+  /* color: #088178; */
 }
 
 .menu-container {
@@ -136,13 +137,20 @@ body {
 }
 
 .featured-button {
-  background-color: #4dbf00;
+  /* background-color: #4dbf00; */
+  background-color: #088178;
   color: white;
   padding: 10px 20px;
   border-radius: 10px;
   border: none;
   outline: none;
   font-weight: bold;
+  cursor: pointer;
+  transition:  0.3s ease;
+}
+.featured-button:hover{
+  transform: scale(1.03);
+  background-color: #066660;
 }
 
 .movie-list-container {
@@ -213,7 +221,8 @@ body {
 
 .movie-list-item-button {
   padding: 10px;
-  background-color: #4dbf00;
+  /* background-color: #4dbf00; */
+  background-color: #088178;
   color: white;
   border-radius: 10px;
   outline: none;
